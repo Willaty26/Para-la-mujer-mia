@@ -56,9 +56,12 @@
     <div class="love-msg msg-7">Mi Reina! 💌</div>
     <div class="love-msg msg-8">Hermosa 😍</div>
     
-    <div class="ribbon">
+ <div class="ribbon">
       <div class="ribbon-line-left"></div>
       <div class="ribbon-line-right"></div>
+      <div class="ribbon-part-left"></div>
+      <div class="ribbon-part-right"></div>
+      <div class="ribbon-cut-out"></div>
     </div>
 
     <div class="teddy-bear">
@@ -95,11 +98,15 @@
 
 <script>
 
+ <script>
   const present = document.querySelector('.present');
 
-  present.addEventListener('click', () => {
-  
-    present.classList.toggle('open');
+  present.addEventListener('click', function() {
+
+    present.classList.add('open');
+    
+
+    present.style.pointerEvents = 'none';
   });
 </script>
 
