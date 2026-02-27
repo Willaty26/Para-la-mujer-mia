@@ -98,15 +98,17 @@
 
 <script>
 
- <script>
+<script>
   const present = document.querySelector('.present');
+  let regaloAbierto = false; 
 
-  present.addEventListener('click', function() {
+  present.addEventListener('click', () => {
 
-    present.classList.add('open');
-    
-
-    present.style.pointerEvents = 'none';
+    if (regaloAbierto === false) { 
+      present.classList.add('open');
+      
+      regaloAbierto = true; 
+    }
   });
 </script>
 
