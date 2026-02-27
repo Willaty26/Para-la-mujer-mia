@@ -131,7 +131,7 @@ font-family: "Indie Flower";
 
 
 .present.open .msg-5 { 
-  animation: float-up-fade 8s linear forwards 8s; 
+  animation: float-up-fade 8s linear forwards 10s; 
   left: -150px; top: -110px; 
   font-size: 3.2rem; 
   z-index: 50;
