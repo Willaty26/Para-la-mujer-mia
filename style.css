@@ -127,41 +127,31 @@ font-family: "Indie Flower";
 
 .present.open .msg-7 { animation: float-up-fade 6s linear forwards 6.5s; left: 250px; top: -130px; }
 .present.open .msg-8 { animation: float-up-fade 6s linear forwards 7.5s; left: -170px; top: -90px; }
-.present.open .msg-9 { animation: float-up-fade 6s linear forwards 8.5s; left: 200px; top: -70px; }
-.present.open .msg-10 { animation: float-up-fade 6s linear forwards 9.5s; left: -150px; top: -120px; }
-.present.open .msg-11 { animation: float-up-fade 6s linear forwards 10.5s; left: 260px; top: -100px; }
-.present.open .msg-12 { animation: float-up-fade 6s linear forwards 11.5s; left: -120px; top: -150px; }
-.present.open .msg-13 { animation: float-up-fade 6s linear forwards 12.5s; left: 230px; top: -140px; }
+
 
 
 .present.open .msg-5 { 
-  animation: float-up-fade 8s linear forwards 14s; 
+  animation: float-up-fade 8s linear forwards 8s; 
   left: -150px; top: -110px; 
   font-size: 3.2rem; 
   z-index: 50;
 }
 
-.present.open .msg-14 { 
-  animation: float-up-fade 9s linear forwards 15.5s; 
-  left: 200px; top: -90px; 
-  font-size: 3.5rem; 
-  color: #ff0040; 
-  z-index: 51;
-}
 
 
 
 
 
 
-/* --- CORRECCIÓN DE LA CINTA (RIBBON) --- */
+
+
 .ribbon {
   width: 40px; height: 40px; background: #ff69b4; border-radius: 100px / 50px; position: absolute;
   box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
   transform: rotate(-6deg); top: -152px; left: 91px; z-index: 2; transform-style: preserve-3d;
 }
 
-/* Regla separada para la animación al abrir */
+
 .present.open .ribbon {
   animation: moving-ribbon 2.4s ease-in 0s both;
 }
@@ -201,7 +191,7 @@ font-family: "Indie Flower";
   top: -160px; left: 0px; z-index: 1; 
 }
 
-/* Regla separada para la animación de la tapa */
+
 .present.open .box-lid {
   animation: moving-lid 4s ease-in 0s forwards;
 }
@@ -225,12 +215,12 @@ font-family: "Indie Flower";
 .box-right, .box-right-lid { height: 100%; left: -236px; position: absolute; top: 0; background: #901010; transform: translateZ(-216px) rotateY(90deg) scaleX(0.9); transform-origin: right; width: 240px; }
 .box-right-lid { transform: translateZ(-70px) rotateY(90deg) scaleX(0.3); top: -1px; left: -239px; height: 249px; border-top: solid 2px #750707; }
 
-/* --- CORRECCIÓN DEL OSO (TEDDY BEAR) --- */
+
 .teddy-bear { 
   background: #cc8b4e; position: absolute; top: -104px; left: 5px; height: 173px; width: 201px; border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%; 
 }
 
-/* Regla separada para la animación del oso */
+
 .present.open .teddy-bear {
   animation: moving-teddy-bear 2s ease-in-out 0.5s forwards;
 }
